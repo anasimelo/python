@@ -1,0 +1,18 @@
+def main():
+     idade = int(input("Digite a sua idade:"))
+     if idade >=18:
+      print("entrada liberada")
+     elif idade >= 16 :
+    
+      acompanhante= input("Você está acompanhado?")
+      if acompanhante =="sim" :
+          print("sim,estou acompanhado")
+      else:
+           print("não estou acompanhada")
+     
+     else :
+      print("entrada proibida")
+
+
+     return 0
+main()
